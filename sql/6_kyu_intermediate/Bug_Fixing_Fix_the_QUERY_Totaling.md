@@ -12,6 +12,8 @@ Resultant table:
 
 Tables and relationship below:
 
+![alt text](img/kBkwsbi.png "Table")
+
 ```sql
 --PostgreSQL 9.6
 select
@@ -26,59 +28,60 @@ order by day
 
 Output
 
-day	department	sale_count
-2019-09-02	Clothing	45
-2019-09-02	Home	52
-2019-09-02	Jewelry	33
-2019-09-02	Shoes	46
-2019-09-02	Tools	39
-2019-09-03	Clothing	38
-2019-09-03	Home	65
-2019-09-03	Jewelry	22
-2019-09-03	Shoes	11
-2019-09-03	Tools	51
-2019-09-04	Clothing	40
-2019-09-04	Home	21
-2019-09-04	Jewelry	27
-2019-09-04	Shoes	10
-2019-09-04	Tools	33
-2019-09-05	Clothing	40
-2019-09-05	Home	11
-2019-09-05	Jewelry	42
-2019-09-05	Shoes	36
-2019-09-05	Tools	70
-2019-09-06	Clothing	16
-2019-09-06	Home	38
-2019-09-06	Jewelry	19
-2019-09-06	Shoes	58
-2019-09-06	Tools	19
-2019-09-07	Clothing	33
-2019-09-07	Home	48
-2019-09-07	Jewelry	21
-2019-09-07	Shoes	44
-2019-09-07	Tools	44
-2019-09-08	Clothing	33
-2019-09-08	Home	45
-2019-09-08	Jewelry	68
-2019-09-08	Shoes	54
-2019-09-08	Tools	24
-2019-09-09	Clothing	31
-2019-09-09	Home	37
-2019-09-09	Jewelry	29
-2019-09-09	Shoes	66
-2019-09-09	Tools	71
-2019-09-10	Clothing	40
-2019-09-10	Home	36
-2019-09-10	Jewelry	46
-2019-09-10	Shoes	46
-2019-09-10	Tools	21
-2019-09-11	Clothing	52
-2019-09-11	Home	44
-2019-09-11	Jewelry	43
-2019-09-11	Shoes	45
-2019-09-11	Tools	47
-2019-09-12	Clothing	38
-2019-09-12	Home	27
-2019-09-12	Jewelry	27
-2019-09-12	Shoes	18
-2019-09-12	Tools	14
+|day|department|sale_count|
+|------------|:------------:|-----:|
+|2019-09-02|Clothing|45|
+|2019-09-02|Home|52|
+|2019-09-02|Jewelry|33|
+|2019-09-02|Shoes|46|
+|2019-09-02|Tools|39|
+|2019-09-03|Clothing|38|
+|2019-09-03|Home|65|
+|2019-09-03|Jewelry|22|
+|2019-09-03|Shoes|11|
+|2019-09-03|Tools|51|
+|2019-09-04|Clothing|40|
+|2019-09-04|Home|21|
+|2019-09-04|Jewelry|27|
+|2019-09-04|Shoes|10|
+|2019-09-04|Tools|33|
+|2019-09-05|Clothing|40|
+|2019-09-05|Home|11|
+|2019-09-05|Jewelry|42|
+|2019-09-05|Shoes|36|
+|2019-09-05|Tools|70|
+|2019-09-06|Clothing|16|
+|2019-09-06|Home|38|
+|2019-09-06|Jewelry|19|
+|2019-09-06|Shoes|58|
+|2019-09-06|Tools|19|
+|2019-09-07|Clothing|33|
+|2019-09-07|Home|48|
+|2019-09-07|Jewelry|21|
+|2019-09-07|Shoes|44|
+|2019-09-07|Tools|44|
+|2019-09-08|Clothing|33|
+|2019-09-08|Home|45|
+|2019-09-08|Jewelry|68|
+|2019-09-08|Shoes|54|
+|2019-09-08|Tools|24|
+|2019-09-09|Clothing|31|
+|2019-09-09|Home|37|
+|2019-09-09|Jewelry|29|
+|2019-09-09|Shoes|66|
+|2019-09-09|Tools|71|
+|2019-09-10|Clothing|40|
+|2019-09-10|Home|36|
+|2019-09-10|Jewelry|46|
+|2019-09-10|Shoes|46|
+|2019-09-10|Tools|21|
+|2019-09-11|Clothing|52|
+|2019-09-11|Home|44|
+|2019-09-11|Jewelry|43|
+|2019-09-11|Shoes|45|
+|2019-09-11|Tools|47|
+|2019-09-12|Clothing|38|
+|2019-09-12|Home|27|
+|2019-09-12|Jewelry|27|
+|2019-09-12|Shoes|18|
+|2019-09-12|Tools|14|
