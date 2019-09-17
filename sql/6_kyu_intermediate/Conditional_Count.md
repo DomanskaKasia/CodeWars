@@ -33,14 +33,13 @@ month | total_count | total_amount | mike_count | mike_amount | jon_count | jon_
 - jon_count - total number of payments accepted by Jon (staff_id = 2)
 - jon_amount - total amount of payments accepted by Jon (staff_id = 2)
 
-![alt text](img/dvd-rental-sample-database-diagram.png "Table")
 
 ```sql
 --PostgreSQL 9.6
 select
   extract(month from payment_date) as "month"
   ,count(*) as "total_count"
-  ,sum(*) as "total_amount"
+  ,sum(amount) as "total_amount"
   ,count(case when staff_id = 1 then 1 end) as "mike_count"
   ,sum(case when staff_id = 1 then amount end) as "mike_amount"
   ,count(case when staff_id = 2 then 1 end) as "jon_count"
